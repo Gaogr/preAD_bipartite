@@ -4,7 +4,7 @@ function [mat_overall,mat_mean,FCD_W,GE_all,mean_FC,Clus_coef_all] = adni_analys
 %%%% 
 datadir = ['C:\Users\*****\afterbatch_finaldata\'];%%%%%your data folder
 
-load('C:\Users\alxne\Documents\MATLAB\new_proc\net17.mat','net17mark');
+load('C:\Users\*****\Documents\MATLAB\new_proc\net17.mat','net17mark');
 mat_overall = [];
 %%%%%GMmat
 for ii = 1 : length(ses)
